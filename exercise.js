@@ -7,7 +7,6 @@ function printReverse(arr) {
     }
 }
 
-
 function isUniform(arr) {
     console.log ("IS UNIFORM FUNCTION:");
     var first = arr[0];
@@ -19,11 +18,21 @@ function isUniform(arr) {
     return true;
 }
 
-function sumArray(arr){
+function sumArray(arr) {
     var total=0;
     arr.forEach(function (element){
         total+= element;
     });
     console.log ("SUM ARRAY FUNCTION:");
     return total;
+}
+
+function max(arr) {
+    var max=arr[0];
+    for (var i=0 ;  i < arr.length ; i++){
+        if (arr[i]>max){
+            max=arr[i];
+        }
+    }
+    return max;
 }
