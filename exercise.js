@@ -8,3 +8,14 @@ function printReverse(arr) {
 }
 
 
+function isUniform(arr) {
+    console.log ("IS UNIFORM FUNCTION:");
+    var first = arr[0];
+    for (var i=1; i<arr.length; i++){
+        if (arr[i] !== first){
+            return false;
+        }
+    }
+    return true;
+}
+
