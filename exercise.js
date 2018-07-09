@@ -19,3 +19,11 @@ function isUniform(arr) {
     return true;
 }
 
+function sumArray(arr){
+    var total=0;
+    arr.forEach(function (element){
+        total+= element;
+    });
+    console.log ("SUM ARRAY FUNCTION:");
+    return total;
+}
